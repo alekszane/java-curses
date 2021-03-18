@@ -1,3 +1,5 @@
+package main;
+
 import java.util.Scanner;
 
 /*Класс запуска калькулятора*/
@@ -20,7 +22,7 @@ public class InteractRunner {
             System.out.println("Exit : yes/no ");
             exit = reader.next();
         }
-    } finally{
+    } finally {
         reader.close();
         }
     }
